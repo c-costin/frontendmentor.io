@@ -24,7 +24,10 @@ Users should be able to:
 
 ### Screenshot
 
-![My Solutions](./images/Screenshot_Frontend_Mentor_Four_card_feature_section.png)
+![My Solution - Desktop](./images/Screenshot_Frontend_Mentor_Four_card_feature_section.png)
+
+![My Solution - Mobile](./images/Screenshot_Frontend_Mentor_Four_card_feature_section_mobile.png)
+
 
 ### Links
 
