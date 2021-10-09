@@ -1,0 +1,126 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    min-width: 375px;
+    max-width: 1440px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: white;
+    background-image: url(./images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    background-color: hsl(257, 40%, 49%);
+}
+
+.logo {
+    margin: 32px;
+    width: 140px;
+}
+
+.hero {
+    margin: 32px;
+    width: 80%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6em;
+}
+
+section p {
+    margin: 16px;
+    max-width: 230px;
+    font-weight: 400;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+section button {
+    margin: 16px;
+    padding: 8px 64px;
+    font-size: 0.8em;
+    color: hsl(257, 40%, 49%);
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.1);
+}
+section button:hover, main button:active {
+    color: white;
+    background:hsl(300, 69%, 71%);
+}
+
+section ul {
+    margin: 64px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section ul li {
+    margin: 8px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 50px;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Style Footer */
+.attribution {
+    margin-bottom: 16px;
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width:990px) {
+    body {
+        background-image: url(./images/bg-desktop.svg);
+    }
+    main {
+        display: flex;
+    }
+    header {
+        position: relative;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    section {
+        width: 40%;
+        align-items: flex-start;
+    }
+    .logo {
+        position: absolute;
+        top: 0;
+        left: 16px;
+        width: 200px;
+    }
+    .hero {
+        margin: 128px 0 128px 128px;
+        width: 600px;
+    }
+    
+}
