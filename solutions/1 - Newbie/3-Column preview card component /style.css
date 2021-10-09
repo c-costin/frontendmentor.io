@@ -4,46 +4,91 @@
     box-sizing: border-box;
 }
 body {
+    margin: auto;
+    min-width: 375px;
+    max-width: 1440px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background: hsl(0, 0%, 95%);
     font-family: 'Big Shoulders Display', cursive;
     font-size: 15px;
-    background: hsl(0, 0%, 95%);
 }
+
 main {
-    width: 100vw;
-    height: 100%;
+    margin: 5em 0;
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .card {
-    width: 80vw;
+    padding: 3em;
+    width: 320px;
+    height: 60vh;
+}
+.card img {
+    margin-bottom: 1em;
+    width: 70px;
     height: auto;
 }
 .card h2 {
     font-family: 'Big Shoulders Display', cursive;
+    font-size: 2em;
+    text-transform: uppercase;
     color: hsl(0, 0%, 95%);
 }
-.p {
+.card p {
+    margin: 2em 0;
     font-family: 'Lexend Deca', sans-serif;
     color: hsla(0, 0%, 100%, 0.75);
 }
 .card button {
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+}
+.card button:hover, .card button:active {
+    background: none;
+    border: 2px solid white;
+    color: hsl(0, 0%, 95%);
 }
 .first {
     background: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0 0;
+}
+.first button {
+    color: hsl(31, 77%, 52%);
 }
 .second {
     background: hsl(184, 100%, 22%);
 }
+.second button {
+    color: hsl(184, 100%, 22%);
+}
 .three {
     background: hsl(179, 100%, 13%);
+    border-radius: 0 0 10px 10px;
+}
+.three button {
+    color: hsl(179, 100%, 13%);
 }
 .attribution {
+    padding: 2em;
     font-size: 11px;
     text-align: center;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width:992px) {
+    main {
+        flex-direction: row;
+    }
 }
