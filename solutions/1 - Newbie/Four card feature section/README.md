@@ -32,8 +32,8 @@ Users should be able to:
 ### Links
 
 - Source : [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK)
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/four-card-feature-section-c3Y5DNY9c)
-- Live Site URL: [Add live site URL here](https://c-costin.github.io/frontendmentor.io/solutions/1%20-%20Newbie/Four%20card%20feature%20section/)
+- Solution URL: [My Solution in Frontend Mentor](https://www.frontendmentor.io/solutions/four-card-feature-section-c3Y5DNY9c)
+- Live Site URL: [Site live](https://c-costin.github.io/frontendmentor.io/solutions/1%20-%20Newbie/Four%20card%20feature%20section/)
 
 ## My process
 
